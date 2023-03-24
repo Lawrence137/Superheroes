@@ -6,7 +6,7 @@ A `Power` has many `Hero`s through `HeroPower`
 
 A `HeroPower` belongs to a `Hero` and belongs to a `Power`
 
-![](ERDDiagram3.jpg)
+![](ERDDiagram4.jpg)
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
