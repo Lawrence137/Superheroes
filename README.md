@@ -1,5 +1,11 @@
 # Superheroes
 
+A `Hero` has many `Power`s through `HeroPower`
+
+A `Power` has many `Hero`s through `HeroPower`
+
+A `HeroPower` belongs to a `Hero` and belongs to a `Power`
+
 ![](ERDDiagram3.jpg)
 
 This README would normally document whatever steps are necessary to get the
