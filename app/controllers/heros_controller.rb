@@ -5,7 +5,12 @@ class HerosController < ApplicationController
    end
 
    def show
-    hero = Hero.find(params[:id])
-    render json: hero, serializer: HeroSerializer
-   end
+    begin
+      hero = Hero.find(params[:id])
+      render json: hero
+    rescue ActiveRecord::RecordNotFound
+      render json: { error: "Hero not found" }, status: :not_found
+    end
+  end
+  
 end
