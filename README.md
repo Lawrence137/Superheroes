@@ -51,13 +51,13 @@ https://supes-api.onrender.com/heros
 
 # Endpoints
 
-GET /heroes
+GET /heros
 
 - Return a list of all heroes.
 
-GET /heroes
+GET /heros/:id
 
-- Return a hero along with associated powers.
+- Return a selected hero along with associated powers.
 
 GET /powers
 
